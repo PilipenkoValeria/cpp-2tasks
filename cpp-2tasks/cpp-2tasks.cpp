@@ -4,11 +4,11 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
 	setlocale(LC_ALL, "ru");
     Queue queue(6);
-    cout<<"Удалим элемент в начале очереди: "<<queue.pop()<<endl;
+    cout << "Удалим элемент в начале очереди: " << endl;
+    queue.pop();
     queue.add(1);
     queue.add(2);
     queue.add(3);
